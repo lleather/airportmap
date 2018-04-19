@@ -20,6 +20,13 @@ Displays a map of airports in the contiguous United States. The map assigns each
 - Add graticules
 - Apply custom projection
 
+#### Potential Updates:
+
+- Force line breaks, and correct capitalization in airport name and location
+- Add basemap without state names, so that the zoomable state names don't conflict with the basemap
+
+
+
 #### Libraries Used
 
 - Map interface: [Leaflet](http://leafletjs.com)
@@ -28,14 +35,14 @@ Displays a map of airports in the contiguous United States. The map assigns each
 - Label gun: [rbush](https://unpkg.com/rbush@2.0.1/) & [labelgun](https://unpkg.com/labelgun@6.0.0/lib/labelgun.min.js)
 - Custom map projections: [Proj4js](http://proj4js.org/) & [Proj4Leaflet](https://kartena.github.io/Proj4Leaflet/)
 - Graticules: [leaflet.latlng-graticule](https://github.com/cloudybay/leaflet.latlng-graticule)
-- [Leaflet.ajax][https://github.com/calvinmetcalf/leaflet-ajax), [Chroma](https://gka.github.io/chroma.js/), and [jQuery](https://jquery.com/)
+- [Leaflet.ajax](https://github.com/calvinmetcalf/leaflet-ajax), [Chroma](https://gka.github.io/chroma.js/), and [jQuery](https://jquery.com/)
 
 
 
 #### Data Sources
 
 - Airport data: [Data.gov](Data.gov)
-- State boundaries: [Mike Bostock][https://bost.ocks.org/mike/], [D3](https://d3js.org/)
+- State boundaries: [Mike Bostock](https://bost.ocks.org/mike/), [D3](https://d3js.org/)
 - Basemap: [OpenStreetMap.Mapnik](http://leaflet-extras.github.io/leaflet-providers/preview/#filter=OpenStreetMap.Mapnik)
 
 
