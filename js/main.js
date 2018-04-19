@@ -48,7 +48,7 @@ airports= L.geoJson.ajax("assets/airports.geojson", {
         return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-plane marker-color-' + (id + 1).toString() })});
     },
     // credit the data
-    attribution: 'Airport Data &copy; data.gov | State Boundaries &copy; Mike Bostock, D3 | Made By Lila Leatherman'
+    attribution: 'Airport Data &copy; <a href="http://data.gov">data.gov</a> | State Boundaries &copy; <a href = "https://bost.ocks.org/mike/">Mike Bostock</a>, <a href = "https://d3js.org/">D3</a> | Made By Lila Leatherman'
 });
 // Add the cellTowers to the map.
 airports.addTo(mymap);
