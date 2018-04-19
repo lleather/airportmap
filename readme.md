@@ -8,7 +8,7 @@
 
 #### Overview
 
-Displays a map of airports in the contiguous United States. The map assigns each state a color based on the number of airports in the state. Further, the map allow users to assess whether or not an airport has a control tower, via colored icons pop-up windows that appear when individual airport icons are clicked. The popup icons also display the name of the airport.
+Displays a map of airports in the United States. The map assigns each state a color based on the number of airports in the state. Further, the map allow users to assess whether or not an airport has a control tower, via colored icons pop-up windows that appear when individual airport icons are clicked. The popup icons also display the name of the airport.
 
 #### Major Functions
 
